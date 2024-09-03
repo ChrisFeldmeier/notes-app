@@ -4,6 +4,9 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 You can find the **prompt** for this app in the `.cursorrules` file in the root of this project.
 
+## Demo App
+You can find a demo of this app here https://notes-app-with-ai.vercel.app/
+
 ## Recording how I created it
 [Watch my recording on YouTube](https://youtu.be/5mzwwtVewSo)
 
