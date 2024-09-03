@@ -10,7 +10,7 @@ You can find a demo of this app here https://notes-app-with-ai.vercel.app/
 ## YouTube Screencast Recording how I created this app
 [Watch my recording on YouTube](https://youtu.be/5mzwwtVewSo)
 
-Please first download the Curosr AI Coding Editor https://www.cursor.com/ and install it.
+Please first download the Cursor AI Coding Editor https://www.cursor.com/ and install it.
 
 ## Step 1. Open a new Cursor Project and paste the following commands into the terminal
 ```bash
