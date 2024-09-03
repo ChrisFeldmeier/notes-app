@@ -21,11 +21,10 @@ npm install @radix-ui/react-icons @radix-ui/react-slot @tanstack/react-query cla
 npm install @dnd-kit/core @dnd-kit/sortable @dnd-kit/utilities
 npm install -D @types/react-beautiful-dnd
 
+npx shadcn@latest init
 npx shadcn@latest add button input card dialog types select textarea
 npm install next react react-dom @dnd-kit/core @dnd-kit/sortable @dnd-kit/utilities
 npm install next-themes lucide-react tailwindcss-animate
-
-npx shadcn@latest init"
 ```
 
 ## App Screenshot
