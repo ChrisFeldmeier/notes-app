@@ -7,7 +7,7 @@ You can find the **prompt** for this app in the `.cursorrules` file in the root 
 ## Demo App
 You can find a demo of this app here https://notes-app-with-ai.vercel.app/
 
-## Recording how I created it
+## YouTube Screencast Recording how I created this app
 [Watch my recording on YouTube](https://youtu.be/5mzwwtVewSo)
 
 ## App Screenshot
