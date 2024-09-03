@@ -10,6 +10,24 @@ You can find a demo of this app here https://notes-app-with-ai.vercel.app/
 ## YouTube Screencast Recording how I created this app
 [Watch my recording on YouTube](https://youtu.be/5mzwwtVewSo)
 
+## Benötigte Starteingaben im Terminal
+```bash
+npm install next -g
+
+npx create-next-app@latest notes-app --typescript
+cd notes-app
+
+npm install @radix-ui/react-icons @radix-ui/react-slot @tanstack/react-query class-variance-authority clsx nuqs react-beautiful-dnd tailwind-merge tailwindcss-animate zod
+npm install @dnd-kit/core @dnd-kit/sortable @dnd-kit/utilities
+npm install -D @types/react-beautiful-dnd
+
+npx shadcn@latest add button input card dialog types select textarea
+npm install next react react-dom @dnd-kit/core @dnd-kit/sortable @dnd-kit/utilities
+npm install next-themes lucide-react tailwindcss-animate
+
+npx shadcn@latest init"
+```
+
 ## App Screenshot
 
 [![App Demo](app-demo.png)](https://www.youtube.com/watch?v=5mzwwtVewSo)
