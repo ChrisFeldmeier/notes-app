@@ -1,6 +1,9 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
+import QueryProvider from '@/providers/query-provider';
+import { ThemeProvider } from '@/providers/theme-provider';
+import Header from '@/components/header';
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -11,12 +14,23 @@ export const metadata: Metadata = {
 
 export default function RootLayout({
   children,
-}: Readonly<{
-  children: React.ReactNode;
-}>) {
+}: {
+  children: React.ReactNode
+}) {
   return (
-    <html lang="en">
-      <body className={inter.className}>{children}</body>
+    <html lang="en" suppressHydrationWarning>
+      <body>
+        <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
+          <QueryProvider>
+            <div className="min-h-screen bg-background text-foreground">
+              <Header />
+              <main className="container mx-auto px-4 py-8">
+                {children}
+              </main>
+            </div>
+          </QueryProvider>
+        </ThemeProvider>
+      </body>
     </html>
-  );
+  )
 }
