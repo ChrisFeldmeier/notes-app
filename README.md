@@ -24,13 +24,13 @@ npm install @dnd-kit/core @dnd-kit/sortable @dnd-kit/utilities
 npm install -D @types/react-beautiful-dnd
 
 npx shadcn@latest init
-npx shadcn@latest add button input card dialog types select textarea
+npx shadcn@latest add button input card dialog select textarea
 npm install next react react-dom @dnd-kit/core @dnd-kit/sortable @dnd-kit/utilities
 npm install next-themes lucide-react tailwindcss-animate
 ```
 
 ## Step 2. Press Command+I to open the Cursor AI Coding Composer with the instruction to write the code from the .cursorrules file
- 
+
 ## App Screenshot
 
 [![App Demo](app-demo.png)](https://www.youtube.com/watch?v=5mzwwtVewSo)
