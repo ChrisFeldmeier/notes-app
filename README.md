@@ -1,17 +1,60 @@
+# Notes App
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+
+## You can find the promt for this app in the .cursorrules file in the root of the project.
+
+## About the App
+
+This Kanban Notes App is a dynamic, interactive task management system built with Next.js, React, and TypeScript. It features:
+
+- A Kanban-style board with four columns: Todo, In Progress, Review, and Done
+- Drag-and-drop functionality for moving notes between columns
+- Ability to add new notes with a title, content, and initial status
+- Random images assigned to each note for visual interest
+- Responsive design with a dark/light mode toggle
+
+Additional features include:
+- A list of all notes
+- A detail page for each note
+- An edit page for each note
+- A delete button for each note
+- A search field for the list of notes
+- A filter field for the list of notes
+- A sort field for the list of notes
+- Pagination for the list of notes
+- Loading state for the list of notes
+- Error state for the list of notes
+
+## Technology Stack
+
+- TypeScript for type-safe code
+- Next.js App Router for efficient routing
+- React for building user interfaces
+- Shadcn UI and Radix UI for component design
+- Tailwind CSS for styling and responsive design
+
+## Code Style and Structure
+
+- Functional and declarative programming patterns
+- Modular code structure
+- Descriptive variable naming
+- TypeScript interfaces for type definitions
+- React Server Components (RSC) for improved performance
+- URL search parameter state management with 'nuqs'
 
 ## Getting Started
 
-First, run the development server:
+1. Clone the repository to your local machine.
+
+2. Install the dependencies:
+
+```bash
+npm install
+```
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
