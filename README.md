@@ -2,7 +2,11 @@
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## You can find the promt for this app in the .cursorrules file in the root of the project.
+## You can find the prompt for this app in the .cursorrules file in the root of the project.
+
+## App Screenshot
+
+![App Demo](app-demo.png)
 
 ## About the App
 
