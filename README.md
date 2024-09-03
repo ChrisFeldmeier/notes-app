@@ -10,7 +10,9 @@ You can find a demo of this app here https://notes-app-with-ai.vercel.app/
 ## YouTube Screencast Recording how I created this app
 [Watch my recording on YouTube](https://youtu.be/5mzwwtVewSo)
 
-## Benötigte Starteingaben im Terminal
+Please first download the Curosr AI Coding Editor https://www.cursor.com/ and install it.
+
+## Step 1. Open a new Cursor Project and paste the following commands into the terminal
 ```bash
 npm install next -g
 
@@ -27,6 +29,8 @@ npm install next react react-dom @dnd-kit/core @dnd-kit/sortable @dnd-kit/utilit
 npm install next-themes lucide-react tailwindcss-animate
 ```
 
+## Step 2. Press Command+I to open the Cursor AI Coding Composer with the instruction to write the code from the .cursorrules file
+ 
 ## App Screenshot
 
 [![App Demo](app-demo.png)](https://www.youtube.com/watch?v=5mzwwtVewSo)
