@@ -4,6 +4,9 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ## You can find the prompt for this app in the .cursorrules file in the root of the project.
 
+## Recording how I created it
+[Watch my recording on YouTube](https://www.youtube.com/watch?v=1ncu3ZQH110)
+
 ## App Screenshot
 
 ![App Demo](app-demo.png)
